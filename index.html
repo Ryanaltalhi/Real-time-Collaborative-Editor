@@ -1,0 +1,29 @@
+<!-- This is a basic HTML file that includes a textarea with the id "editor" and two script tags. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Collaborative Editor</title>
+    <link rel="icon" href="logoicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> <span class="highlight">Real-time Collaborative Editor</span></h1>
+        <textarea id="editor"></textarea>
+    </div>
+    <!-- The first script tag imports the socket.io.js library from the server. 
+    This is necessary to establish a WebSocket connection for real-time communication.-->
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- The second script tag imports the script.js file,
+         which contains the client-side JavaScript code responsible for handling real-time updates and user input.-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

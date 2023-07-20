@@ -1,0 +1,32 @@
+/* This is a simple CSS file that applies some basic styling to the HTML elements. */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.png');
+    /* Replace 'background.jpg' with the actual filename of your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+span.highlight {
+    color: #003049;
+}
+
